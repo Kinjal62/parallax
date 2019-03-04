@@ -1,0 +1,42 @@
+/*Common CSS for all*/
+body{
+	margin: 0px;
+	padding: 0px;
+}
+body *{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+}
+ul{
+	list-style-type: none;
+}
+.about{
+	background-image: url(../image/1.jpg);
+}
+.education{
+	background-image: url(../image/2.jpg);
+}
+.hobbie{
+	background-image: url(../image/3.jpg);
+}
+.skill{
+	background-image: url(../image/4.jpg);
+}
+.about, .education, .hobbie, .skill {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height : 100%;
+}
+.about_content, .education_content, .hobbie_content, .skill_content{
+	text-align: center;
+}
+/*.education_content table{
+	margin: 30px auto;
+}*/
+.table{
+	margin: 30px auto;
+}
